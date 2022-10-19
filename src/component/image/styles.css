@@ -1,0 +1,25 @@
+div.gallery {
+    border: 1px solid #ccc;
+    width: 180px;
+    overflow: hidden;
+    margin: 15px;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100% !important;
+    display: inline-block !important;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
